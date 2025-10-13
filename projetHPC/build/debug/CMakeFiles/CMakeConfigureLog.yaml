@@ -1,0 +1,1675 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      The system is: Linux - 3.10.0-957.el7.x86_64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/3.31.8/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/3.31.8/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-HbsM8W"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-HbsM8W"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-HbsM8W'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_61f6a/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_61f6a.dir/build.make CMakeFiles/cmTC_61f6a.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-HbsM8W'
+        Building C object CMakeFiles/cmTC_61f6a.dir/CMakeCCompilerABI.c.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc   -v -o CMakeFiles/cmTC_61f6a.dir/CMakeCCompilerABI.c.o -c /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc
+        Target: x86_64-unknown-linux-gnu
+        Configured with: 
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61f6a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_61f6a.dir/'
+         /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/cc1 -quiet -v /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_61f6a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccdV3u3c.s
+        GNU C23 (GCC) version 15.2.0 (x86_64-unknown-linux-gnu)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/no-gcc-local-prefix/include"
+        ignoring nonexistent directory "/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../../../../x86_64-unknown-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/include
+         /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include
+         /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed
+         /gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/include
+        End of search list.
+        Compiler executable checksum: cb848745cfcb3fbd67a0b0d2e244a8c6
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61f6a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_61f6a.dir/'
+         as -v --64 -o CMakeFiles/cmTC_61f6a.dir/CMakeCCompilerABI.c.o /tmp/ccdV3u3c.s
+        GNU assembler version 2.44 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.44
+        COMPILER_PATH=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/
+        LIBRARY_PATH=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib/:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib/:/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61f6a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_61f6a.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_61f6a
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61f6a.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc
+        COLLECT_LTO_WRAPPER=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper
+        Target: x86_64-unknown-linux-gnu
+        Configured with: 
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (GCC) 
+        COMPILER_PATH=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/
+        LIBRARY_PATH=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib/:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib/:/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_61f6a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_61f6a.'
+         /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/collect2 -plugin /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cccDayeL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/ld-linux-x86-64.so.2 -o cmTC_61f6a /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crt1.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crti.o /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbegin.o -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../.. -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -v CMakeFiles/cmTC_61f6a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib -lgcc_s -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtend.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crtn.o
+        collect2 version 15.2.0
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/ld -plugin /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cccDayeL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/ld-linux-x86-64.so.2 -o cmTC_61f6a /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crt1.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crti.o /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbegin.o -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../.. -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -v CMakeFiles/cmTC_61f6a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib -lgcc_s -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtend.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crtn.o
+        GNU ld (GNU Binutils) 2.44
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_61f6a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_61f6a.'
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc  -v -Wl,-v -rdynamic CMakeFiles/cmTC_61f6a.dir/CMakeCCompilerABI.c.o -o cmTC_61f6a
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-HbsM8W'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/include]
+          add: [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include]
+          add: [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed]
+          add: [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/include]
+        end of search list found
+        collapse include dir [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/include] ==> [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/include]
+        collapse include dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include] ==> [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include]
+        collapse include dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed] ==> [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed]
+        collapse include dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/include] ==> [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/include]
+        implicit include dirs: [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/include;/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include;/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed;/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-HbsM8W']
+        ignore line: []
+        ignore line: [Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_61f6a/fast]
+        ignore line: [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_61f6a.dir/build.make CMakeFiles/cmTC_61f6a.dir/build]
+        ignore line: [make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-HbsM8W']
+        ignore line: [Building C object CMakeFiles/cmTC_61f6a.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc   -v -o CMakeFiles/cmTC_61f6a.dir/CMakeCCompilerABI.c.o -c /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: ]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61f6a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_61f6a.dir/']
+        ignore line: [ /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/cc1 -quiet -v /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_61f6a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccdV3u3c.s]
+        ignore line: [GNU C23 (GCC) version 15.2.0 (x86_64-unknown-linux-gnu)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/no-gcc-local-prefix/include"]
+        ignore line: [ignoring nonexistent directory "/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../../../../x86_64-unknown-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/include]
+        ignore line: [ /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include]
+        ignore line: [ /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed]
+        ignore line: [ /gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: cb848745cfcb3fbd67a0b0d2e244a8c6]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61f6a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_61f6a.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_61f6a.dir/CMakeCCompilerABI.c.o /tmp/ccdV3u3c.s]
+        ignore line: [GNU assembler version 2.44 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.44]
+        ignore line: [COMPILER_PATH=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib/:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib/:/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61f6a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_61f6a.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_61f6a]
+        ignore line: [/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61f6a.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: ]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib/:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib/:/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_61f6a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_61f6a.']
+        link line: [ /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/collect2 -plugin /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cccDayeL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/ld-linux-x86-64.so.2 -o cmTC_61f6a /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crt1.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crti.o /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbegin.o -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../.. -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -v CMakeFiles/cmTC_61f6a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib -lgcc_s -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtend.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crtn.o]
+          arg [/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cccDayeL.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_61f6a] ==> ignore
+          arg [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crt1.o] ==> obj [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crt1.o]
+          arg [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crti.o] ==> obj [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crti.o]
+          arg [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbegin.o] ==> obj [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbegin.o]
+          arg [-L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib] ==> dir [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib]
+          arg [-L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+          arg [-L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib] ==> dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib]
+          arg [-L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib] ==> dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib]
+          arg [-L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib] ==> dir [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib]
+          arg [-L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../..] ==> dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../..]
+          arg [-L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib] ==> dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_61f6a.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib] ==> dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+          arg [-rpath=/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib] ==> ignore
+          arg [-rpath=/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtend.o] ==> obj [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtend.o]
+          arg [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crtn.o] ==> obj [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crtn.o]
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/ld -plugin /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cccDayeL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/ld-linux-x86-64.so.2 -o cmTC_61f6a /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crt1.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crti.o /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbegin.o -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../.. -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -v CMakeFiles/cmTC_61f6a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib -lgcc_s -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtend.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crtn.o]
+        linker tool for 'C': /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/ld
+        collapse obj [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crt1.o] ==> [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/crt1.o]
+        collapse obj [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crti.o] ==> [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/crti.o]
+        collapse obj [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crtn.o] ==> [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/crtn.o]
+        collapse library dir [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib] ==> [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib]
+        collapse library dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        collapse library dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib] ==> [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib]
+        collapse library dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib] ==> [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+        collapse library dir [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib] ==> [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib]
+        collapse library dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../..] ==> [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib]
+        collapse library dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib] ==> [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+        collapse library dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib] ==> [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+        implicit libs: [gcc;gcc_s;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/crt1.o;/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/crti.o;/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbegin.o;/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtend.o;/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/crtn.o]
+        implicit dirs: [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib;/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0;/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib;/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Running the C compiler's linker: "/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.44
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-E3ckUk"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-E3ckUk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-E3ckUk'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_1443f/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_1443f.dir/build.make CMakeFiles/cmTC_1443f.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-E3ckUk'
+        Building CXX object CMakeFiles/cmTC_1443f.dir/CMakeCXXCompilerABI.cpp.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++   -v -o CMakeFiles/cmTC_1443f.dir/CMakeCXXCompilerABI.cpp.o -c /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++
+        Target: x86_64-unknown-linux-gnu
+        Configured with: 
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1443f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1443f.dir/'
+         /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/cc1plus -quiet -v -D_GNU_SOURCE /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1443f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccaNq5yG.s
+        GNU C++17 (GCC) version 15.2.0 (x86_64-unknown-linux-gnu)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/no-gcc-local-prefix/include"
+        ignoring nonexistent directory "/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../../../../x86_64-unknown-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/include/c++
+         /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/include
+         /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/include/c++
+         /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/include/c++/x86_64-unknown-linux-gnu
+         /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/include/c++/backward
+         /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include
+         /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed
+         /gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/include
+        End of search list.
+        Compiler executable checksum: 098d807fab3b5ebdcc8d89e2a49799a3
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1443f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1443f.dir/'
+         as -v --64 -o CMakeFiles/cmTC_1443f.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccaNq5yG.s
+        GNU assembler version 2.44 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.44
+        COMPILER_PATH=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/
+        LIBRARY_PATH=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib/:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib/:/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1443f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1443f.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_1443f
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1443f.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++
+        COLLECT_LTO_WRAPPER=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper
+        Target: x86_64-unknown-linux-gnu
+        Configured with: 
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (GCC) 
+        COMPILER_PATH=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/
+        LIBRARY_PATH=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib/:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib/:/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1443f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1443f.'
+         /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/collect2 -plugin /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWKZR1t.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/ld-linux-x86-64.so.2 -o cmTC_1443f /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crt1.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crti.o /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbegin.o -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../.. -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -v CMakeFiles/cmTC_1443f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib -lgcc_s -lc -lgcc_s -lgcc /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtend.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crtn.o
+        collect2 version 15.2.0
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/ld -plugin /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWKZR1t.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/ld-linux-x86-64.so.2 -o cmTC_1443f /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crt1.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crti.o /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbegin.o -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../.. -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -v CMakeFiles/cmTC_1443f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib -lgcc_s -lc -lgcc_s -lgcc /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtend.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crtn.o
+        GNU ld (GNU Binutils) 2.44
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1443f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1443f.'
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++  -v -Wl,-v -rdynamic CMakeFiles/cmTC_1443f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1443f
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-E3ckUk'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/include/c++]
+          add: [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/include]
+          add: [/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/include/c++]
+          add: [/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/include/c++/x86_64-unknown-linux-gnu]
+          add: [/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/include/c++/backward]
+          add: [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include]
+          add: [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed]
+          add: [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/include]
+        end of search list found
+        collapse include dir [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/include/c++] ==> [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/include/c++]
+        collapse include dir [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/include] ==> [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/include]
+        collapse include dir [/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/include/c++] ==> [/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/include/c++]
+        collapse include dir [/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/include/c++/x86_64-unknown-linux-gnu] ==> [/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/include/c++/x86_64-unknown-linux-gnu]
+        collapse include dir [/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/include/c++/backward] ==> [/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/include/c++/backward]
+        collapse include dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include] ==> [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include]
+        collapse include dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed] ==> [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed]
+        collapse include dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/include] ==> [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/include]
+        implicit include dirs: [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/include/c++;/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/include;/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/include/c++;/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/include/c++/x86_64-unknown-linux-gnu;/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/include/c++/backward;/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include;/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed;/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-E3ckUk']
+        ignore line: []
+        ignore line: [Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_1443f/fast]
+        ignore line: [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_1443f.dir/build.make CMakeFiles/cmTC_1443f.dir/build]
+        ignore line: [make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-E3ckUk']
+        ignore line: [Building CXX object CMakeFiles/cmTC_1443f.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++   -v -o CMakeFiles/cmTC_1443f.dir/CMakeCXXCompilerABI.cpp.o -c /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: ]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1443f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1443f.dir/']
+        ignore line: [ /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/cc1plus -quiet -v -D_GNU_SOURCE /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1443f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccaNq5yG.s]
+        ignore line: [GNU C++17 (GCC) version 15.2.0 (x86_64-unknown-linux-gnu)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/no-gcc-local-prefix/include"]
+        ignore line: [ignoring nonexistent directory "/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../../../../x86_64-unknown-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/include/c++]
+        ignore line: [ /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/include]
+        ignore line: [ /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/include/c++]
+        ignore line: [ /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/include/c++/x86_64-unknown-linux-gnu]
+        ignore line: [ /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/include/c++/backward]
+        ignore line: [ /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include]
+        ignore line: [ /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include-fixed]
+        ignore line: [ /gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 098d807fab3b5ebdcc8d89e2a49799a3]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1443f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1443f.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_1443f.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccaNq5yG.s]
+        ignore line: [GNU assembler version 2.44 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.44]
+        ignore line: [COMPILER_PATH=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib/:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib/:/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1443f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1443f.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_1443f]
+        ignore line: [/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1443f.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: ]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib/:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib/:/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1443f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1443f.']
+        link line: [ /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/collect2 -plugin /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWKZR1t.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/ld-linux-x86-64.so.2 -o cmTC_1443f /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crt1.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crti.o /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbegin.o -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../.. -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -v CMakeFiles/cmTC_1443f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib -lgcc_s -lc -lgcc_s -lgcc /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtend.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crtn.o]
+          arg [/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccWKZR1t.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_1443f] ==> ignore
+          arg [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crt1.o] ==> obj [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crt1.o]
+          arg [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crti.o] ==> obj [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crti.o]
+          arg [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbegin.o] ==> obj [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbegin.o]
+          arg [-L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib] ==> dir [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib]
+          arg [-L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+          arg [-L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib] ==> dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib]
+          arg [-L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib] ==> dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib]
+          arg [-L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib] ==> dir [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib]
+          arg [-L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../..] ==> dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../..]
+          arg [-L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib] ==> dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_1443f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib] ==> dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+          arg [-rpath=/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib] ==> ignore
+          arg [-rpath=/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtend.o] ==> obj [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtend.o]
+          arg [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crtn.o] ==> obj [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crtn.o]
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/ld -plugin /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWKZR1t.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/ld-linux-x86-64.so.2 -o cmTC_1443f /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crt1.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crti.o /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbegin.o -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../.. -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -v CMakeFiles/cmTC_1443f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib -lgcc_s -lc -lgcc_s -lgcc /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtend.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crtn.o]
+        linker tool for 'CXX': /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/ld
+        collapse obj [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crt1.o] ==> [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/crt1.o]
+        collapse obj [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crti.o] ==> [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/crti.o]
+        collapse obj [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crtn.o] ==> [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/crtn.o]
+        collapse library dir [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib] ==> [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib]
+        collapse library dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        collapse library dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib] ==> [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib]
+        collapse library dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib] ==> [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+        collapse library dir [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib] ==> [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib]
+        collapse library dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../..] ==> [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib]
+        collapse library dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib] ==> [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+        collapse library dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib] ==> [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;gcc_s;c;gcc_s;gcc]
+        implicit objs: [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/crt1.o;/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/crti.o;/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbegin.o;/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtend.o;/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/crtn.o]
+        implicit dirs: [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib;/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0;/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib;/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Running the CXX compiler's linker: "/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.44
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake_modules/modules/Sanitizer.cmake:34 (check_c_compiler_flag)"
+      - "cmake_modules/modules/MorseInit.cmake:70 (include)"
+      - "CMakeLists.txt:86 (include)"
+    checks:
+      - "Performing Test HAVE_C_TSAN"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-OdjHk3"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-OdjHk3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "HAVE_C_TSAN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-OdjHk3'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_87efc/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_87efc.dir/build.make CMakeFiles/cmTC_87efc.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-OdjHk3'
+        Building C object CMakeFiles/cmTC_87efc.dir/src.c.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc -DHAVE_C_TSAN  -fsanitize=thread   -fsanitize=thread -g -O1 -o CMakeFiles/cmTC_87efc.dir/src.c.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-OdjHk3/src.c
+        Linking C executable cmTC_87efc
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87efc.dir/link.txt --verbose=1
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc  -fsanitize=thread CMakeFiles/cmTC_87efc.dir/src.c.o -o cmTC_87efc
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-OdjHk3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "cmake_modules/modules/Sanitizer.cmake:42 (check_cxx_compiler_flag)"
+      - "cmake_modules/modules/MorseInit.cmake:70 (include)"
+      - "CMakeLists.txt:86 (include)"
+    checks:
+      - "Performing Test HAVE_CXX_TSAN"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-vq2MNr"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-vq2MNr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "HAVE_CXX_TSAN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-vq2MNr'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_2689c/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_2689c.dir/build.make CMakeFiles/cmTC_2689c.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-vq2MNr'
+        Building CXX object CMakeFiles/cmTC_2689c.dir/src.cxx.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++ -DHAVE_CXX_TSAN  -fsanitize=thread   -fsanitize=thread -g -O1 -o CMakeFiles/cmTC_2689c.dir/src.cxx.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-vq2MNr/src.cxx
+        Linking CXX executable cmTC_2689c
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2689c.dir/link.txt --verbose=1
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++  -fsanitize=thread CMakeFiles/cmTC_2689c.dir/src.cxx.o -o cmTC_2689c
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-vq2MNr'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake_modules/modules/Sanitizer.cmake:34 (check_c_compiler_flag)"
+      - "cmake_modules/modules/MorseInit.cmake:70 (include)"
+      - "CMakeLists.txt:86 (include)"
+    checks:
+      - "Performing Test HAVE_C_ASAN"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-g8gHXj"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-g8gHXj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "HAVE_C_ASAN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-g8gHXj'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_e9ebf/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_e9ebf.dir/build.make CMakeFiles/cmTC_e9ebf.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-g8gHXj'
+        Building C object CMakeFiles/cmTC_e9ebf.dir/src.c.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc -DHAVE_C_ASAN  -fsanitize=address   -fsanitize=address  -fno-optimize-sibling-calls -fsanitize-address-use-after-scope -fno-omit-frame-pointer -o CMakeFiles/cmTC_e9ebf.dir/src.c.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-g8gHXj/src.c
+        Linking C executable cmTC_e9ebf
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9ebf.dir/link.txt --verbose=1
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc  -fsanitize=address CMakeFiles/cmTC_e9ebf.dir/src.c.o -o cmTC_e9ebf
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-g8gHXj'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "cmake_modules/modules/Sanitizer.cmake:42 (check_cxx_compiler_flag)"
+      - "cmake_modules/modules/MorseInit.cmake:70 (include)"
+      - "CMakeLists.txt:86 (include)"
+    checks:
+      - "Performing Test HAVE_CXX_ASAN"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-bo6LUa"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-bo6LUa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "HAVE_CXX_ASAN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-bo6LUa'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_4065d/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_4065d.dir/build.make CMakeFiles/cmTC_4065d.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-bo6LUa'
+        Building CXX object CMakeFiles/cmTC_4065d.dir/src.cxx.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++ -DHAVE_CXX_ASAN  -fsanitize=address   -fsanitize=address  -fno-optimize-sibling-calls -fsanitize-address-use-after-scope -fno-omit-frame-pointer -o CMakeFiles/cmTC_4065d.dir/src.cxx.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-bo6LUa/src.cxx
+        Linking CXX executable cmTC_4065d
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4065d.dir/link.txt --verbose=1
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++  -fsanitize=address CMakeFiles/cmTC_4065d.dir/src.cxx.o -o cmTC_4065d
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-bo6LUa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake_modules/modules/Sanitizer.cmake:34 (check_c_compiler_flag)"
+      - "cmake_modules/modules/MorseInit.cmake:70 (include)"
+      - "CMakeLists.txt:86 (include)"
+    checks:
+      - "Performing Test HAVE_C_LSAN"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-STxpBP"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-STxpBP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "HAVE_C_LSAN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-STxpBP'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_f5ca8/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_f5ca8.dir/build.make CMakeFiles/cmTC_f5ca8.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-STxpBP'
+        Building C object CMakeFiles/cmTC_f5ca8.dir/src.c.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc -DHAVE_C_LSAN  -fsanitize=leak   -fsanitize=leak -fno-omit-frame-pointer -o CMakeFiles/cmTC_f5ca8.dir/src.c.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-STxpBP/src.c
+        Linking C executable cmTC_f5ca8
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5ca8.dir/link.txt --verbose=1
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc  -fsanitize=leak CMakeFiles/cmTC_f5ca8.dir/src.c.o -o cmTC_f5ca8
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-STxpBP'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "cmake_modules/modules/Sanitizer.cmake:42 (check_cxx_compiler_flag)"
+      - "cmake_modules/modules/MorseInit.cmake:70 (include)"
+      - "CMakeLists.txt:86 (include)"
+    checks:
+      - "Performing Test HAVE_CXX_LSAN"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-0EY5Nu"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-0EY5Nu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "HAVE_CXX_LSAN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-0EY5Nu'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_9bd9a/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_9bd9a.dir/build.make CMakeFiles/cmTC_9bd9a.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-0EY5Nu'
+        Building CXX object CMakeFiles/cmTC_9bd9a.dir/src.cxx.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++ -DHAVE_CXX_LSAN  -fsanitize=leak   -fsanitize=leak -fno-omit-frame-pointer -o CMakeFiles/cmTC_9bd9a.dir/src.cxx.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-0EY5Nu/src.cxx
+        Linking CXX executable cmTC_9bd9a
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bd9a.dir/link.txt --verbose=1
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++  -fsanitize=leak CMakeFiles/cmTC_9bd9a.dir/src.cxx.o -o cmTC_9bd9a
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-0EY5Nu'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake_modules/modules/Sanitizer.cmake:34 (check_c_compiler_flag)"
+      - "cmake_modules/modules/MorseInit.cmake:70 (include)"
+      - "CMakeLists.txt:86 (include)"
+    checks:
+      - "Performing Test HAVE_C_MSAN"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-eVcLgz"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-eVcLgz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "HAVE_C_MSAN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-eVcLgz'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_b4682/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_b4682.dir/build.make CMakeFiles/cmTC_b4682.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-eVcLgz'
+        Building C object CMakeFiles/cmTC_b4682.dir/src.c.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc -DHAVE_C_MSAN  -fsanitize=memory   -fsanitize=memory -fno-optimize-sibling-calls -fsanitize-memory-track-origins=2 -fno-omit-frame-pointer -o CMakeFiles/cmTC_b4682.dir/src.c.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-eVcLgz/src.c
+        gcc: error: unrecognized argument to '-fsanitize=' option: 'memory'
+        gcc: error: unrecognized argument to '-fsanitize=' option: 'memory'
+        gcc: error: unrecognized command-line option '-fsanitize-memory-track-origins=2'
+        make[1]: *** [CMakeFiles/cmTC_b4682.dir/build.make:81: CMakeFiles/cmTC_b4682.dir/src.c.o] Error 1
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-eVcLgz'
+        make: *** [Makefile:134: cmTC_b4682/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "cmake_modules/modules/Sanitizer.cmake:42 (check_cxx_compiler_flag)"
+      - "cmake_modules/modules/MorseInit.cmake:70 (include)"
+      - "CMakeLists.txt:86 (include)"
+    checks:
+      - "Performing Test HAVE_CXX_MSAN"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-InqwVp"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-InqwVp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "HAVE_CXX_MSAN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-InqwVp'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_80c00/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_80c00.dir/build.make CMakeFiles/cmTC_80c00.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-InqwVp'
+        Building CXX object CMakeFiles/cmTC_80c00.dir/src.cxx.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++ -DHAVE_CXX_MSAN  -fsanitize=memory   -fsanitize=memory -fno-optimize-sibling-calls -fsanitize-memory-track-origins=2 -fno-omit-frame-pointer -o CMakeFiles/cmTC_80c00.dir/src.cxx.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-InqwVp/src.cxx
+        c++: error: unrecognized argument to '-fsanitize=' option: 'memory'
+        c++: error: unrecognized argument to '-fsanitize=' option: 'memory'
+        c++: error: unrecognized command-line option '-fsanitize-memory-track-origins=2'
+        make[1]: *** [CMakeFiles/cmTC_80c00.dir/build.make:81: CMakeFiles/cmTC_80c00.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-InqwVp'
+        make: *** [Makefile:134: cmTC_80c00/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake_modules/modules/Sanitizer.cmake:34 (check_c_compiler_flag)"
+      - "cmake_modules/modules/MorseInit.cmake:70 (include)"
+      - "CMakeLists.txt:86 (include)"
+    checks:
+      - "Performing Test HAVE_C_UBSAN"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-oGebiK"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-oGebiK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "HAVE_C_UBSAN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-oGebiK'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_60d4e/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_60d4e.dir/build.make CMakeFiles/cmTC_60d4e.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-oGebiK'
+        Building C object CMakeFiles/cmTC_60d4e.dir/src.c.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc -DHAVE_C_UBSAN  -fsanitize=undefined   -fsanitize=undefined  -o CMakeFiles/cmTC_60d4e.dir/src.c.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-oGebiK/src.c
+        Linking C executable cmTC_60d4e
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60d4e.dir/link.txt --verbose=1
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc  -fsanitize=undefined CMakeFiles/cmTC_60d4e.dir/src.c.o -o cmTC_60d4e
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-oGebiK'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "cmake_modules/modules/Sanitizer.cmake:42 (check_cxx_compiler_flag)"
+      - "cmake_modules/modules/MorseInit.cmake:70 (include)"
+      - "CMakeLists.txt:86 (include)"
+    checks:
+      - "Performing Test HAVE_CXX_UBSAN"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-OgjUCR"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-OgjUCR"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "HAVE_CXX_UBSAN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-OgjUCR'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_792c6/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_792c6.dir/build.make CMakeFiles/cmTC_792c6.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-OgjUCR'
+        Building CXX object CMakeFiles/cmTC_792c6.dir/src.cxx.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++ -DHAVE_CXX_UBSAN  -fsanitize=undefined   -fsanitize=undefined  -o CMakeFiles/cmTC_792c6.dir/src.cxx.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-OgjUCR/src.cxx
+        Linking CXX executable cmTC_792c6
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_792c6.dir/link.txt --verbose=1
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++  -fsanitize=undefined CMakeFiles/cmTC_792c6.dir/src.cxx.o -o cmTC_792c6
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-OgjUCR'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake_modules/modules/find/FindSTARPU.cmake:138 (check_function_exists)"
+      - "CMakeLists.txt:129 (find_package)"
+    checks:
+      - "Looking for starpu_init"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-Ej7zK4"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-Ej7zK4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "STARPU_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-Ej7zK4'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_c6a14/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_c6a14.dir/build.make CMakeFiles/cmTC_c6a14.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-Ej7zK4'
+        Building C object CMakeFiles/cmTC_c6a14.dir/CheckFunctionExists.c.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc  -I/gnu/store/krxcx4inxn2p23zbygyfx5cn6vq5s8i7-starpu-1.4.8/include/starpu/1.4 -I/gnu/store/vjdc7vss30gkrjnbwhhba6rzddwi5qmv-hwloc-2.12.2-lib/include -I/gnu/store/c0sf0shhwsq9g1q26v4yrl8gqdzxyw62-libpciaccess-0.18.1/include -I/gnu/store/a2jnc1avp7jdyp01r9kpp8q1i72kk8g0-zlib-1.3.1/include -DCHECK_FUNCTION_EXISTS=starpu_init -o CMakeFiles/cmTC_c6a14.dir/CheckFunctionExists.c.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-Ej7zK4/CheckFunctionExists.c
+        Linking C executable cmTC_c6a14
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6a14.dir/link.txt --verbose=1
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc  -DCHECK_FUNCTION_EXISTS=starpu_init -rdynamic CMakeFiles/cmTC_c6a14.dir/CheckFunctionExists.c.o -o cmTC_c6a14  -Wl,-rpath,/gnu/store/krxcx4inxn2p23zbygyfx5cn6vq5s8i7-starpu-1.4.8/lib:/gnu/store/vjdc7vss30gkrjnbwhhba6rzddwi5qmv-hwloc-2.12.2-lib/lib -L/gnu/store/krxcx4inxn2p23zbygyfx5cn6vq5s8i7-starpu-1.4.8/lib -L/gnu/store/vjdc7vss30gkrjnbwhhba6rzddwi5qmv-hwloc-2.12.2-lib/lib /gnu/store/krxcx4inxn2p23zbygyfx5cn6vq5s8i7-starpu-1.4.8/lib/libstarpumpi-1.4.so /gnu/store/krxcx4inxn2p23zbygyfx5cn6vq5s8i7-starpu-1.4.8/lib/libstarpu-1.4.so /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/libpthread.a /gnu/store/vjdc7vss30gkrjnbwhhba6rzddwi5qmv-hwloc-2.12.2-lib/lib/libhwloc.so
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-Ej7zK4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake_modules/modules/find/FindSTARPU.cmake:143 (check_function_exists)"
+      - "CMakeLists.txt:129 (find_package)"
+    checks:
+      - "Looking for fstarpu_task_insert"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-5ODHcy"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-5ODHcy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "FSTARPU_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-5ODHcy'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_8d50d/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_8d50d.dir/build.make CMakeFiles/cmTC_8d50d.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-5ODHcy'
+        Building C object CMakeFiles/cmTC_8d50d.dir/CheckFunctionExists.c.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc  -I/gnu/store/krxcx4inxn2p23zbygyfx5cn6vq5s8i7-starpu-1.4.8/include/starpu/1.4 -I/gnu/store/vjdc7vss30gkrjnbwhhba6rzddwi5qmv-hwloc-2.12.2-lib/include -I/gnu/store/c0sf0shhwsq9g1q26v4yrl8gqdzxyw62-libpciaccess-0.18.1/include -I/gnu/store/a2jnc1avp7jdyp01r9kpp8q1i72kk8g0-zlib-1.3.1/include -DCHECK_FUNCTION_EXISTS=fstarpu_task_insert -o CMakeFiles/cmTC_8d50d.dir/CheckFunctionExists.c.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-5ODHcy/CheckFunctionExists.c
+        Linking C executable cmTC_8d50d
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d50d.dir/link.txt --verbose=1
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc  -DCHECK_FUNCTION_EXISTS=fstarpu_task_insert -rdynamic CMakeFiles/cmTC_8d50d.dir/CheckFunctionExists.c.o -o cmTC_8d50d  -Wl,-rpath,/gnu/store/krxcx4inxn2p23zbygyfx5cn6vq5s8i7-starpu-1.4.8/lib:/gnu/store/vjdc7vss30gkrjnbwhhba6rzddwi5qmv-hwloc-2.12.2-lib/lib -L/gnu/store/krxcx4inxn2p23zbygyfx5cn6vq5s8i7-starpu-1.4.8/lib -L/gnu/store/vjdc7vss30gkrjnbwhhba6rzddwi5qmv-hwloc-2.12.2-lib/lib /gnu/store/krxcx4inxn2p23zbygyfx5cn6vq5s8i7-starpu-1.4.8/lib/libstarpumpi-1.4.so /gnu/store/krxcx4inxn2p23zbygyfx5cn6vq5s8i7-starpu-1.4.8/lib/libstarpu-1.4.so /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/libpthread.a /gnu/store/vjdc7vss30gkrjnbwhhba6rzddwi5qmv-hwloc-2.12.2-lib/lib/libhwloc.so
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-5ODHcy'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/FindOpenMP.cmake:252 (try_compile)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/FindOpenMP.cmake:522 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:184 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-GwGgNb"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-GwGgNb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-GwGgNb'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_cb9b5/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_cb9b5.dir/build.make CMakeFiles/cmTC_cb9b5.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-GwGgNb'
+        Building C object CMakeFiles/cmTC_cb9b5.dir/OpenMPTryFlag.c.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc   -fopenmp -o CMakeFiles/cmTC_cb9b5.dir/OpenMPTryFlag.c.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-GwGgNb/OpenMPTryFlag.c
+        Linking C executable cmTC_cb9b5
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb9b5.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc
+        COLLECT_LTO_WRAPPER=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper
+        Target: x86_64-unknown-linux-gnu
+        Configured with: 
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (GCC) 
+        COMPILER_PATH=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/
+        LIBRARY_PATH=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib/:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib/:/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/
+        Reading specs from /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-rdynamic' '-v' '-o' 'cmTC_cb9b5' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_cb9b5.'
+         /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/collect2 -plugin /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccf6SsGl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/ld-linux-x86-64.so.2 -o cmTC_cb9b5 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crt1.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crti.o /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbegin.o -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../.. -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib CMakeFiles/cmTC_cb9b5.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib -lgcc_s -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtend.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-rdynamic' '-v' '-o' 'cmTC_cb9b5' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_cb9b5.'
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc  -fopenmp -rdynamic -v CMakeFiles/cmTC_cb9b5.dir/OpenMPTryFlag.c.o -o cmTC_cb9b5
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-GwGgNb'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/FindOpenMP.cmake:296 (message)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/FindOpenMP.cmake:522 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:184 (find_package)"
+    message: |
+      Parsed C OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-GwGgNb']
+        ignore line: []
+        ignore line: [Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_cb9b5/fast]
+        ignore line: [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_cb9b5.dir/build.make CMakeFiles/cmTC_cb9b5.dir/build]
+        ignore line: [make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-GwGgNb']
+        ignore line: [Building C object CMakeFiles/cmTC_cb9b5.dir/OpenMPTryFlag.c.o]
+        ignore line: [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc   -fopenmp -o CMakeFiles/cmTC_cb9b5.dir/OpenMPTryFlag.c.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-GwGgNb/OpenMPTryFlag.c]
+        ignore line: [Linking C executable cmTC_cb9b5]
+        ignore line: [/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb9b5.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: ]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib/:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib/:/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/]
+        ignore line: [Reading specs from /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-rdynamic' '-v' '-o' 'cmTC_cb9b5' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_cb9b5.']
+        link line: [ /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/collect2 -plugin /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccf6SsGl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/ld-linux-x86-64.so.2 -o cmTC_cb9b5 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crt1.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crti.o /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbegin.o -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../.. -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib CMakeFiles/cmTC_cb9b5.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib -lgcc_s -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtend.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crtn.o]
+          arg [/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccf6SsGl.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_cb9b5] ==> ignore
+          arg [-L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib] ==> dir [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib]
+          arg [-L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+          arg [-L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib] ==> dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib]
+          arg [-L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib] ==> dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib]
+          arg [-L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib] ==> dir [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib]
+          arg [-L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../..] ==> dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../..]
+          arg [-L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib] ==> dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+          arg [CMakeFiles/cmTC_cb9b5.dir/OpenMPTryFlag.c.o] ==> ignore
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib] ==> dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+          arg [-rpath=/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib] ==> ignore
+          arg [-rpath=/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+        collapse library dir [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib] ==> [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib]
+        collapse library dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        collapse library dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib] ==> [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib]
+        collapse library dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib] ==> [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+        collapse library dir [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib] ==> [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib]
+        collapse library dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../..] ==> [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib]
+        collapse library dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib] ==> [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+        collapse library dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib] ==> [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+        implicit libs: [gomp;gcc;gcc_s;gcc_s;pthread;c;gcc;gcc_s]
+        implicit objs: []
+        implicit dirs: [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib;/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0;/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib;/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/FindOpenMP.cmake:252 (try_compile)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/FindOpenMP.cmake:522 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:184 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-Affob3"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-Affob3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-Affob3'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_e0548/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_e0548.dir/build.make CMakeFiles/cmTC_e0548.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-Affob3'
+        Building CXX object CMakeFiles/cmTC_e0548.dir/OpenMPTryFlag.cpp.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++   -fopenmp -o CMakeFiles/cmTC_e0548.dir/OpenMPTryFlag.cpp.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-Affob3/OpenMPTryFlag.cpp
+        Linking CXX executable cmTC_e0548
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0548.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++
+        COLLECT_LTO_WRAPPER=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper
+        Target: x86_64-unknown-linux-gnu
+        Configured with: 
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (GCC) 
+        COMPILER_PATH=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/
+        LIBRARY_PATH=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib/:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib/:/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/
+        Reading specs from /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-rdynamic' '-v' '-o' 'cmTC_e0548' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_e0548.'
+         /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/collect2 -plugin /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPwsQKl.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/ld-linux-x86-64.so.2 -o cmTC_e0548 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crt1.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crti.o /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbegin.o -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../.. -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib CMakeFiles/cmTC_e0548.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib -lgcc_s -lpthread -lc -lgcc_s -lgcc /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtend.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-rdynamic' '-v' '-o' 'cmTC_e0548' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_e0548.'
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++  -fopenmp -rdynamic -v CMakeFiles/cmTC_e0548.dir/OpenMPTryFlag.cpp.o -o cmTC_e0548
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-Affob3'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/FindOpenMP.cmake:296 (message)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/FindOpenMP.cmake:522 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:184 (find_package)"
+    message: |
+      Parsed CXX OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-Affob3']
+        ignore line: []
+        ignore line: [Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_e0548/fast]
+        ignore line: [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_e0548.dir/build.make CMakeFiles/cmTC_e0548.dir/build]
+        ignore line: [make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-Affob3']
+        ignore line: [Building CXX object CMakeFiles/cmTC_e0548.dir/OpenMPTryFlag.cpp.o]
+        ignore line: [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++   -fopenmp -o CMakeFiles/cmTC_e0548.dir/OpenMPTryFlag.cpp.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-Affob3/OpenMPTryFlag.cpp]
+        ignore line: [Linking CXX executable cmTC_e0548]
+        ignore line: [/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0548.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: ]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib/:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib/:/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/:/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../:/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/]
+        ignore line: [Reading specs from /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-rdynamic' '-v' '-o' 'cmTC_e0548' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_e0548.']
+        link line: [ /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/collect2 -plugin /gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so -plugin-opt=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPwsQKl.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/ld-linux-x86-64.so.2 -o cmTC_e0548 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crt1.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crti.o /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbegin.o -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0 -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib -L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib -L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../.. -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib CMakeFiles/cmTC_e0548.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib -rpath=/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib -lgcc_s -lpthread -lc -lgcc_s -lgcc /gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtend.o /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib/crtn.o]
+          arg [/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/gnu/store/pdsp8rhjj3vwjw01wv2555rfdxkgph7j-gcc-15.2.0/libexec/gcc/x86_64-unknown-linux-gnu/15.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccPwsQKl.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_e0548] ==> ignore
+          arg [-L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib] ==> dir [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib]
+          arg [-L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+          arg [-L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib] ==> dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib]
+          arg [-L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib] ==> dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib]
+          arg [-L/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib] ==> dir [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib]
+          arg [-L/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../..] ==> dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../..]
+          arg [-L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib] ==> dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+          arg [CMakeFiles/cmTC_e0548.dir/OpenMPTryFlag.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-L/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib] ==> dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+          arg [-rpath=/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib] ==> ignore
+          arg [-rpath=/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+        collapse library dir [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/../lib] ==> [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib]
+        collapse library dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0] ==> [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0]
+        collapse library dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../../lib] ==> [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib]
+        collapse library dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib/../lib] ==> [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+        collapse library dir [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib] ==> [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib]
+        collapse library dir [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../..] ==> [/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib]
+        collapse library dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib] ==> [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+        collapse library dir [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib] ==> [/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+        implicit libs: [stdc++;m;gomp;gcc_s;gcc;gcc_s;pthread;c;gcc_s;gcc]
+        implicit objs: []
+        implicit dirs: [/gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib;/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/15.2.0;/gnu/store/xm7i1gvi0i9pyndlkv627r08rsw1ny96-gcc-15.2.0-lib/lib;/gnu/store/yj053cys0724p7vs9kir808x7fivz17m-glibc-2.41/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/FindOpenMP.cmake:456 (try_compile)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/FindOpenMP.cmake:596 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:184 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-tYdXtI"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-tYdXtI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-tYdXtI'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_dbc1f/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_dbc1f.dir/build.make CMakeFiles/cmTC_dbc1f.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-tYdXtI'
+        Building C object CMakeFiles/cmTC_dbc1f.dir/OpenMPCheckVersion.c.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc   -fopenmp -o CMakeFiles/cmTC_dbc1f.dir/OpenMPCheckVersion.c.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-tYdXtI/OpenMPCheckVersion.c
+        Linking C executable cmTC_dbc1f
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbc1f.dir/link.txt --verbose=1
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc  -fopenmp -rdynamic CMakeFiles/cmTC_dbc1f.dir/OpenMPCheckVersion.c.o -o cmTC_dbc1f
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-tYdXtI'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/FindOpenMP.cmake:456 (try_compile)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/FindOpenMP.cmake:596 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:184 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-nxNgzl"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-nxNgzl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-nxNgzl'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_02e81/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_02e81.dir/build.make CMakeFiles/cmTC_02e81.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-nxNgzl'
+        Building CXX object CMakeFiles/cmTC_02e81.dir/OpenMPCheckVersion.cpp.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++   -fopenmp -o CMakeFiles/cmTC_02e81.dir/OpenMPCheckVersion.cpp.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-nxNgzl/OpenMPCheckVersion.cpp
+        Linking CXX executable cmTC_02e81
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02e81.dir/link.txt --verbose=1
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/c++  -fopenmp -rdynamic CMakeFiles/cmTC_02e81.dir/OpenMPCheckVersion.cpp.o -o cmTC_02e81
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-nxNgzl'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake_modules/modules/find/FindM.cmake:45 (check_function_exists)"
+      - "CMakeLists.txt:187 (find_package)"
+    checks:
+      - "Looking for sqrt"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-DTbyyH"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-DTbyyH"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "HAVE_MATH"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-DTbyyH'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_910d1/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_910d1.dir/build.make CMakeFiles/cmTC_910d1.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-DTbyyH'
+        Building C object CMakeFiles/cmTC_910d1.dir/CheckFunctionExists.c.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc   -DCHECK_FUNCTION_EXISTS=sqrt -o CMakeFiles/cmTC_910d1.dir/CheckFunctionExists.c.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-DTbyyH/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function 'sqrt'; expected 'double(double)' [-Wbuiltin-declaration-mismatch]
+        /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-DTbyyH/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-DTbyyH/CheckFunctionExists.c:1:1: note: 'sqrt' is declared in header '<math.h>'
+          +++ |+#include <math.h>
+            1 | #ifdef CHECK_FUNCTION_EXISTS
+        Linking C executable cmTC_910d1
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_910d1.dir/link.txt --verbose=1
+        ld: CMakeFiles/cmTC_910d1.dir/CheckFunctionExists.c.o: in function `main':
+        CheckFunctionExists.c:(.text+0x10): undefined reference to `sqrt'
+        collect2: error: ld returned 1 exit status
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc  -DCHECK_FUNCTION_EXISTS=sqrt -rdynamic CMakeFiles/cmTC_910d1.dir/CheckFunctionExists.c.o -o cmTC_910d1
+        make[1]: *** [CMakeFiles/cmTC_910d1.dir/build.make:102: cmTC_910d1] Error 1
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-DTbyyH'
+        make: *** [Makefile:134: cmTC_910d1/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake_modules/modules/find/FindM.cmake:65 (check_function_exists)"
+      - "CMakeLists.txt:187 (find_package)"
+    checks:
+      - "Looking for sqrt"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-c2rUjh"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-c2rUjh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "LIBM_MATH_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-c2rUjh'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_e5282/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_e5282.dir/build.make CMakeFiles/cmTC_e5282.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-c2rUjh'
+        Building C object CMakeFiles/cmTC_e5282.dir/CheckFunctionExists.c.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc   -DCHECK_FUNCTION_EXISTS=sqrt -o CMakeFiles/cmTC_e5282.dir/CheckFunctionExists.c.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-c2rUjh/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function 'sqrt'; expected 'double(double)' [-Wbuiltin-declaration-mismatch]
+        /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-c2rUjh/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-c2rUjh/CheckFunctionExists.c:1:1: note: 'sqrt' is declared in header '<math.h>'
+          +++ |+#include <math.h>
+            1 | #ifdef CHECK_FUNCTION_EXISTS
+        Linking C executable cmTC_e5282
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5282.dir/link.txt --verbose=1
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc  -DCHECK_FUNCTION_EXISTS=sqrt -rdynamic CMakeFiles/cmTC_e5282.dir/CheckFunctionExists.c.o -o cmTC_e5282  -lm
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-c2rUjh'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/FindBLAS.cmake:379 (check_function_exists)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/FindBLAS.cmake:423 (check_blas_libraries)"
+      - "cmake_modules/modules/find/FindBLASEXT.cmake:45 (find_package)"
+      - "cmake_modules/modules/find/FindCBLAS.cmake:192 (find_package)"
+      - "CMakeLists.txt:191 (find_package)"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-zlHo2v"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-zlHo2v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "BLAS_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-zlHo2v'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_902e7/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_902e7.dir/build.make CMakeFiles/cmTC_902e7.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-zlHo2v'
+        Building C object CMakeFiles/cmTC_902e7.dir/CheckFunctionExists.c.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_902e7.dir/CheckFunctionExists.c.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-zlHo2v/CheckFunctionExists.c
+        Linking C executable cmTC_902e7
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_902e7.dir/link.txt --verbose=1
+        ld: CMakeFiles/cmTC_902e7.dir/CheckFunctionExists.c.o: in function `main':
+        CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
+        collect2: error: ld returned 1 exit status
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc  -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_902e7.dir/CheckFunctionExists.c.o -o cmTC_902e7
+        make[1]: *** [CMakeFiles/cmTC_902e7.dir/build.make:102: cmTC_902e7] Error 1
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-zlHo2v'
+        make: *** [Makefile:134: cmTC_902e7/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/FindBLAS.cmake:475 (find_package)"
+      - "cmake_modules/modules/find/FindBLASEXT.cmake:45 (find_package)"
+      - "cmake_modules/modules/find/FindCBLAS.cmake:192 (find_package)"
+      - "CMakeLists.txt:191 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-fyqra1"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-fyqra1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-fyqra1'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_20cc3/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_20cc3.dir/build.make CMakeFiles/cmTC_20cc3.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-fyqra1'
+        Building C object CMakeFiles/cmTC_20cc3.dir/src.c.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_20cc3.dir/src.c.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-fyqra1/src.c
+        Linking C executable cmTC_20cc3
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20cc3.dir/link.txt --verbose=1
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc CMakeFiles/cmTC_20cc3.dir/src.c.o -o cmTC_20cc3
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-fyqra1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/FindBLAS.cmake:379 (check_function_exists)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/FindBLAS.cmake:764 (check_blas_libraries)"
+      - "cmake_modules/modules/find/FindBLASEXT.cmake:45 (find_package)"
+      - "cmake_modules/modules/find/FindCBLAS.cmake:192 (find_package)"
+      - "CMakeLists.txt:191 (find_package)"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-6TnTiQ"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-6TnTiQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "BLAS_openblas_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-6TnTiQ'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_9723d/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_9723d.dir/build.make CMakeFiles/cmTC_9723d.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-6TnTiQ'
+        Building C object CMakeFiles/cmTC_9723d.dir/CheckFunctionExists.c.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_9723d.dir/CheckFunctionExists.c.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-6TnTiQ/CheckFunctionExists.c
+        Linking C executable cmTC_9723d
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9723d.dir/link.txt --verbose=1
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc  -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_9723d.dir/CheckFunctionExists.c.o -o cmTC_9723d  /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/libopenblas.so
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-6TnTiQ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake_modules/modules/find/FindCBLAS.cmake:145 (check_function_exists)"
+      - "cmake_modules/modules/find/FindCBLAS.cmake:214 (cblas_check_library)"
+      - "CMakeLists.txt:191 (find_package)"
+    checks:
+      - "Looking for cblas_dscal"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-jieyoU"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-jieyoU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "CBLAS_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-jieyoU'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_181e0/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_181e0.dir/build.make CMakeFiles/cmTC_181e0.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-jieyoU'
+        Building C object CMakeFiles/cmTC_181e0.dir/CheckFunctionExists.c.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc   -DCHECK_FUNCTION_EXISTS=cblas_dscal -o CMakeFiles/cmTC_181e0.dir/CheckFunctionExists.c.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-jieyoU/CheckFunctionExists.c
+        Linking C executable cmTC_181e0
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_181e0.dir/link.txt --verbose=1
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc  -DCHECK_FUNCTION_EXISTS=cblas_dscal -rdynamic CMakeFiles/cmTC_181e0.dir/CheckFunctionExists.c.o -o cmTC_181e0  /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/libopenblas.so
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-jieyoU'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake_modules/modules/find/FindCBLAS.cmake:147 (check_function_exists)"
+      - "cmake_modules/modules/find/FindCBLAS.cmake:214 (cblas_check_library)"
+      - "CMakeLists.txt:191 (find_package)"
+    checks:
+      - "Looking for cblas_zgemm3m"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-dtj2zG"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-dtj2zG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "CBLAS_ZGEMM3M_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-dtj2zG'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_70adf/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_70adf.dir/build.make CMakeFiles/cmTC_70adf.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-dtj2zG'
+        Building C object CMakeFiles/cmTC_70adf.dir/CheckFunctionExists.c.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc   -DCHECK_FUNCTION_EXISTS=cblas_zgemm3m -o CMakeFiles/cmTC_70adf.dir/CheckFunctionExists.c.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-dtj2zG/CheckFunctionExists.c
+        Linking C executable cmTC_70adf
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70adf.dir/link.txt --verbose=1
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc  -DCHECK_FUNCTION_EXISTS=cblas_zgemm3m -rdynamic CMakeFiles/cmTC_70adf.dir/CheckFunctionExists.c.o -o cmTC_70adf  /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/libopenblas.so
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-dtj2zG'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake_modules/modules/find/FindCBLAS.cmake:148 (check_function_exists)"
+      - "cmake_modules/modules/find/FindCBLAS.cmake:214 (cblas_check_library)"
+      - "CMakeLists.txt:191 (find_package)"
+    checks:
+      - "Looking for cblas_cgemm3m"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-KEVfvz"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-KEVfvz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "CBLAS_CGEMM3M_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-KEVfvz'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_04e5a/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_04e5a.dir/build.make CMakeFiles/cmTC_04e5a.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-KEVfvz'
+        Building C object CMakeFiles/cmTC_04e5a.dir/CheckFunctionExists.c.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc   -DCHECK_FUNCTION_EXISTS=cblas_cgemm3m -o CMakeFiles/cmTC_04e5a.dir/CheckFunctionExists.c.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-KEVfvz/CheckFunctionExists.c
+        Linking C executable cmTC_04e5a
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04e5a.dir/link.txt --verbose=1
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc  -DCHECK_FUNCTION_EXISTS=cblas_cgemm3m -rdynamic CMakeFiles/cmTC_04e5a.dir/CheckFunctionExists.c.o -o cmTC_04e5a  /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/libopenblas.so
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-KEVfvz'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/FindLAPACK.cmake:220 (check_function_exists)"
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/FindLAPACK.cmake:399 (check_lapack_libraries)"
+      - "cmake_modules/modules/find/FindLAPACKEXT.cmake:45 (find_package)"
+      - "cmake_modules/modules/find/FindLAPACKE.cmake:230 (find_package)"
+      - "CMakeLists.txt:195 (find_package)"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-8vzhF5"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-8vzhF5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "LAPACK_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-8vzhF5'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_b77bd/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_b77bd.dir/build.make CMakeFiles/cmTC_b77bd.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-8vzhF5'
+        Building C object CMakeFiles/cmTC_b77bd.dir/CheckFunctionExists.c.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_b77bd.dir/CheckFunctionExists.c.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-8vzhF5/CheckFunctionExists.c
+        Linking C executable cmTC_b77bd
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b77bd.dir/link.txt --verbose=1
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc  -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_b77bd.dir/CheckFunctionExists.c.o -o cmTC_b77bd  /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/libopenblas.so -lm -ldl
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-8vzhF5'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake_modules/modules/find/FindLAPACKE.cmake:140 (check_function_exists)"
+      - "cmake_modules/modules/find/FindLAPACKE.cmake:254 (lapacke_check_library)"
+      - "CMakeLists.txt:195 (find_package)"
+    checks:
+      - "Looking for LAPACKE_dgeqrf"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-iSgKK6"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-iSgKK6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "LAPACKE_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-iSgKK6'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_042e4/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_042e4.dir/build.make CMakeFiles/cmTC_042e4.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-iSgKK6'
+        Building C object CMakeFiles/cmTC_042e4.dir/CheckFunctionExists.c.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc   -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -o CMakeFiles/cmTC_042e4.dir/CheckFunctionExists.c.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-iSgKK6/CheckFunctionExists.c
+        Linking C executable cmTC_042e4
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_042e4.dir/link.txt --verbose=1
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc  -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -rdynamic CMakeFiles/cmTC_042e4.dir/CheckFunctionExists.c.o -o cmTC_042e4  /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/libopenblas.so -lm -ldl
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-iSgKK6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "cmake_modules/modules/find/FindLAPACKE.cmake:144 (check_function_exists)"
+      - "cmake_modules/modules/find/FindLAPACKE.cmake:254 (lapacke_check_library)"
+      - "CMakeLists.txt:195 (find_package)"
+    checks:
+      - "Looking for LAPACKE_dlascl_work"
+    directories:
+      source: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-OUMcZ5"
+      binary: "/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-OUMcZ5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/cisd-lahlah/mini-chameleon/cmake_modules/modules;/home/cisd-lahlah/mini-chameleon/cmake_modules/modules/find"
+    buildResult:
+      variable: "LAPACKE_WITH_LASCL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-OUMcZ5'
+        
+        Run Build Command(s): /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E env VERBOSE=1 /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make -f Makefile cmTC_5757f/fast
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/make  -f CMakeFiles/cmTC_5757f.dir/build.make CMakeFiles/cmTC_5757f.dir/build
+        make[1]: Entering directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-OUMcZ5'
+        Building C object CMakeFiles/cmTC_5757f.dir/CheckFunctionExists.c.o
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc   -DCHECK_FUNCTION_EXISTS=LAPACKE_dlascl_work -o CMakeFiles/cmTC_5757f.dir/CheckFunctionExists.c.o -c /home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-OUMcZ5/CheckFunctionExists.c
+        Linking C executable cmTC_5757f
+        /gnu/store/5bfm0m2sx9fzc4hx1gwrnv805ha8xvsr-cmake-minimal-3.31.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5757f.dir/link.txt --verbose=1
+        /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/bin/gcc  -DCHECK_FUNCTION_EXISTS=LAPACKE_dlascl_work -rdynamic CMakeFiles/cmTC_5757f.dir/CheckFunctionExists.c.o -o cmTC_5757f  /gnu/store/wvl8j6s9633m4wf5w3y0d2ld27wiz8xm-profile/lib/libopenblas.so -lm -ldl
+        make[1]: Leaving directory '/home/cisd-lahlah/mini-chameleon/build/debug/CMakeFiles/CMakeScratch/TryCompile-OUMcZ5'
+        
+      exitCode: 0
+...
