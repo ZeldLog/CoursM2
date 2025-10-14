@@ -17,6 +17,17 @@
 #include <stdlib.h>
 
 
+void affiche(int m, int n, double *A, int lda, const char *flux){
+    FILE *f = fopen(flux,"w");
+    for(int i=0; i<m; i++){
+        for(int j=0; j<n; j++){
+        fprintf(f,"%e ",A[i*lda+j]);
+        }
+        fprintf(f,"\n");
+    }
+    fclose(f);
+}
+
 /**
  * Ajoute une ligne de résultats (valeurs numériques) au fichier, séparées par des espaces.
  * 
