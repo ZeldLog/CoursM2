@@ -89,11 +89,16 @@ testone_ddot( ddot_fct_t ddot, int N, int check )
     CORE_dplrnt( 0, 1, N, A, lda, 1, 0, 0, seedA );
     CORE_dplrnt( 0, 1, N, B, ldb, N, 0, 0, seedB );
     CORE_dplrnt( 0, 1, 1, C, ldc, 1, 0, 0, seedC );
+    affiche(1, N, A, lda, "A.txt");
+    affiche(1, N, B, ldb, "B.txt");
+    affiche(1, 1, C, ldc, "C.txt");
 
     /* Calculate the product */
     perf( &start );
     *C = ddot( N, A, lda, B, ldb );
     perf( &stop );
+
+    affiche(1, 1, C, ldc, "C_apres.txt");
 
     perf_diff( &start, &stop );
     if ( flops > 0. ) {
@@ -124,9 +129,9 @@ testone_ddot( ddot_fct_t ddot, int N, int check )
         free( Cinit );
     }
     else {
-	mesures[0] = N;
+	  /*mesures[0] = N;
     	mesures[1] = gflops;
-    	append_result_line(filename, mesures, 2);
+    	append_result_line(filename, mesures, 2); */
         printf( "N= %4d: %le GFlop/s\n", N, gflops );
     }
   
