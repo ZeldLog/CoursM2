@@ -14,6 +14,17 @@
  */
 #include "algonum_int.h"
 
+void affiche(int m, int n, double *A, int lda, const char *flux){
+    FILE *f = fopen(flux,"w");
+    for(int i=0; i<m; i++){
+        for(int j=0; j<n; j++){
+        fprintf(f,"%e ",A[i*lda+j]);
+        }
+        fprintf(f,"\n");
+    }
+    fclose(f);
+}
+
 /**
  *  @brief Function to test one single case of dgemm.
  *
@@ -113,12 +124,18 @@ testone_dgemm( dgemm_fct_t     dgemm,
     CORE_dplrnt( 0, Bm, Bn, B, ldb, An, 0, 0, seedB );
     CORE_dplrnt( 0, M,  N,  C, ldc, M,  0, 0, seedC );
 
+    affiche(Am, An, A, lda, "A.txt");
+    affiche(Bm, Bn, B, ldb, "B.txt");
+    affiche(M,  N,  C, ldc, "C.txt");
+
     /* Calculate the product */
     perf( &start );
     rc = dgemm( CblasColMajor, transA, transB, M, N, K,
                 alpha, A, lda, B, ldb,
                 beta, C, ldc );
     perf( &stop );
+
+    affiche(M, N, C, ldc, "C_apres.txt");
 
     if ( rc == ALGONUM_NOT_IMPLEMENTED ) {
         printf(  "tA=%s tB=%s M= %4d N= %4d K= %4d: " ALGONUM_COLOR_ORANGE "Not supported or not implemented\n" ALGONUM_COLOR_RESET,
