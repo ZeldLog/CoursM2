@@ -18,7 +18,7 @@
 // See the registration function to change its value
 static int dgemm_seq_block_size = -1;
 
-int dgemm_seq( CBLAS_LAYOUT layout, CBLAS_TRANSPOSE transA,
+int dgemm_scalaire( CBLAS_LAYOUT layout, CBLAS_TRANSPOSE transA,
                CBLAS_TRANSPOSE transB, const int M, const int N,
                const int K, const double alpha, const double *A,
                const int lda, const double *B, const int ldb,
@@ -82,6 +82,25 @@ int dgemm_seq( CBLAS_LAYOUT layout, CBLAS_TRANSPOSE transA,
     }
 
     return ALGONUM_SUCCESS;
+}
+
+int dgemm_block( CBLAS_LAYOUT layout, CBLAS_TRANSPOSE transA,
+                 CBLAS_TRANSPOSE transB, const int M, const int N,
+                 const int K, const double alpha, const double *A,
+                 const int lda, const double *B, const int ldb,
+                 const double beta, double *C, const int ldc )
+{
+    // To be implemented
+    return ALGONUM_SUCCESS;
+}
+
+int dgemm_seq( CBLAS_LAYOUT layout, CBLAS_TRANSPOSE transA,
+               CBLAS_TRANSPOSE transB, const int M, const int N,
+               const int K, const double alpha, const double *A,
+               const int lda, const double *B, const int ldb,
+               const double beta, double *C, const int ldc )
+{
+                return dgemm_scalaire(layout, transA, transB, M, N, K, alpha, A, lda, B, ldb, beta, C, ldc);
 }
 
 /* To make sure we use the right prototype */
