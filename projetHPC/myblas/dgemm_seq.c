@@ -16,7 +16,7 @@
 
 // Exemple of ways to add additionnal parameters to your kernel
 // See the registration function to change its value
-static int dgemm_seq_block_size = -1;
+static int dgemm_seq_block_size = 2;
 
 int dgemm_scalaire( CBLAS_LAYOUT layout, CBLAS_TRANSPOSE transA,
                CBLAS_TRANSPOSE transB, const int M, const int N,
@@ -90,7 +90,13 @@ int dgemm_block( CBLAS_LAYOUT layout, CBLAS_TRANSPOSE transA,
                  const int lda, const double *B, const int ldb,
                  const double beta, double *C, const int ldc )
 {
-    // To be implemented
+    int m, n, k;
+    for( m=0; m<M; m+=dgemm_seq_block_size ) {
+        for( n=0; n<N; n+=dgemm_seq_block_size ) {
+            dgemm_scalaire(layout, transA, transB, dgemm_seq_block_size, dgemm_seq_block_size, K, alpha, A, lda * m, B, ldb * n, beta, C, ldc * n + m);
+        }
+    }
+
     return ALGONUM_SUCCESS;
 }
 
