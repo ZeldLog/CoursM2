@@ -91,11 +91,13 @@ int dgemm_block( CBLAS_LAYOUT layout, CBLAS_TRANSPOSE transA,
                  const double beta, double *C, const int ldc )
 {
     int m, n, k;
-    for( m=0; m<M; m+=dgemm_seq_block_size ) {
-        for( n=0; n<N; n+=dgemm_seq_block_size ) {
+    for( m=0; m<M - dgemm_seq_block_size; m+=dgemm_seq_block_size ) {
+        for( n=0; n<N - dgemm_seq_block_size; n+=dgemm_seq_block_size ) {
             dgemm_scalaire(layout, transA, transB, dgemm_seq_block_size, dgemm_seq_block_size, K, alpha, A, lda * m, B, ldb * n, beta, C, ldc * n + m);
         }
+        dgemm_scalaire(layout, transA, transB, dgemm_seq_block_size, N - n, K, alpha, A, lda * m, B, ldb * n, beta, C, ldc * n + m);
     }
+    dgemm_scalaire(layout, transA, transB, M - m, N - n, K, alpha, A, lda * m, B, ldb * n, beta, C, ldc * n + m);
 
     return ALGONUM_SUCCESS;
 }
@@ -106,7 +108,7 @@ int dgemm_seq( CBLAS_LAYOUT layout, CBLAS_TRANSPOSE transA,
                const int lda, const double *B, const int ldb,
                const double beta, double *C, const int ldc )
 {
-                return dgemm_scalaire(layout, transA, transB, M, N, K, alpha, A, lda, B, ldb, beta, C, ldc);
+                return dgemm_block(layout, transA, transB, M, N, K, alpha, A, lda, B, ldb, beta, C, ldc);
 }
 
 /* To make sure we use the right prototype */
