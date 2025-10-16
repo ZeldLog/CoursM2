@@ -16,7 +16,7 @@
 
 // Exemple of ways to add additionnal parameters to your kernel
 // See the registration function to change its value
-static int dgemm_seq_block_size = 2;
+static int dgemm_seq_block_size = 1;
 
 int dgemm_scalaire( CBLAS_LAYOUT layout, CBLAS_TRANSPOSE transA,
                CBLAS_TRANSPOSE transB, const int M, const int N,
@@ -91,13 +91,22 @@ int dgemm_block( CBLAS_LAYOUT layout, CBLAS_TRANSPOSE transA,
                  const double beta, double *C, const int ldc )
 {
     int m, n, k;
-    for( n=0; n<N - dgemm_seq_block_size; n+=dgemm_seq_block_size ) {
-        for( m=0; m<M - dgemm_seq_block_size; m+=dgemm_seq_block_size ) {
-            dgemm_scalaire(layout, transA, transB, dgemm_seq_block_size, dgemm_seq_block_size, K, alpha, A, lda * m, B, ldb * n, beta, C, ldc * n + m);
+    for( n=0; n<N/dgemm_seq_block_size; n++ ) {
+        for( m=0; m<M/dgemm_seq_block_size; m++ ) {
+            dgemm_scalaire(layout, transA, transB, dgemm_seq_block_size, dgemm_seq_block_size, K, alpha, &A[lda*m*dgemm_seq_block_size], lda, &B[ldb*n*dgemm_seq_block_size], ldb, beta, &C[ldc*n*dgemm_seq_block_size], ldc);
         }
-        dgemm_scalaire(layout, transA, transB, M - m, dgemm_seq_block_size, K, alpha, A, lda * m, B, ldb * n, beta, C, ldc * n + m);
+        if( M % dgemm_seq_block_size != 0 ) {
+            dgemm_scalaire(layout, transA, transB, M % dgemm_seq_block_size, dgemm_seq_block_size, K, alpha, &A[lda*m*dgemm_seq_block_size], lda, &B[ldb*n*dgemm_seq_block_size], ldb, beta, &C[ldc*n*dgemm_seq_block_size], ldc);
+        }
     }
-    dgemm_scalaire(layout, transA, transB, M - m, N - n, K, alpha, A, lda * m, B, ldb * n, beta, C, ldc * n + m);
+    if( N % dgemm_seq_block_size != 0 ) {
+        for( m=0; m<M/dgemm_seq_block_size; m++ ) {
+            dgemm_scalaire(layout, transA, transB, dgemm_seq_block_size, N % dgemm_seq_block_size, K, alpha, &A[lda*m*dgemm_seq_block_size], lda, &B[ldb*n*dgemm_seq_block_size], ldb, beta, &C[ldc*n*dgemm_seq_block_size], ldc);
+        }
+        if( M % dgemm_seq_block_size != 0 ) {
+            dgemm_scalaire(layout, transA, transB, M % dgemm_seq_block_size, N % dgemm_seq_block_size, K, alpha, &A[lda*m*dgemm_seq_block_size], lda, &B[ldb*n*dgemm_seq_block_size], ldb, beta, &C[ldc*n*dgemm_seq_block_size], ldc);
+        }
+    }
 
     return ALGONUM_SUCCESS;
 }
