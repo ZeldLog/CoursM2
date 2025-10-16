@@ -93,18 +93,18 @@ int dgemm_block( CBLAS_LAYOUT layout, CBLAS_TRANSPOSE transA,
     int m, n, k;
     for( n=0; n<N/dgemm_seq_block_size; n++ ) {
         for( m=0; m<M/dgemm_seq_block_size; m++ ) {
-            dgemm_scalaire(layout, transA, transB, dgemm_seq_block_size, dgemm_seq_block_size, K, alpha, &A[lda*m*dgemm_seq_block_size], lda, &B[ldb*n*dgemm_seq_block_size], ldb, beta, &C[ldc*n*dgemm_seq_block_size], ldc);
+            dgemm_scalaire(layout, transA, transB, dgemm_seq_block_size, dgemm_seq_block_size, K, alpha, &A[lda*m*dgemm_seq_block_size], lda, &B[ldb*n*dgemm_seq_block_size], ldb, beta, &C[ldc*n*dgemm_seq_block_size + m*dgemm_seq_block_size], ldc);
         }
         if( M % dgemm_seq_block_size != 0 ) {
-            dgemm_scalaire(layout, transA, transB, M % dgemm_seq_block_size, dgemm_seq_block_size, K, alpha, &A[lda*m*dgemm_seq_block_size], lda, &B[ldb*n*dgemm_seq_block_size], ldb, beta, &C[ldc*n*dgemm_seq_block_size], ldc);
+            dgemm_scalaire(layout, transA, transB, M % dgemm_seq_block_size, dgemm_seq_block_size, K, alpha, &A[lda*m*dgemm_seq_block_size], lda, &B[ldb*n*dgemm_seq_block_size], ldb, beta, &C[ldc*n*dgemm_seq_block_size + m*dgemm_seq_block_size], ldc);
         }
     }
     if( N % dgemm_seq_block_size != 0 ) {
         for( m=0; m<M/dgemm_seq_block_size; m++ ) {
-            dgemm_scalaire(layout, transA, transB, dgemm_seq_block_size, N % dgemm_seq_block_size, K, alpha, &A[lda*m*dgemm_seq_block_size], lda, &B[ldb*n*dgemm_seq_block_size], ldb, beta, &C[ldc*n*dgemm_seq_block_size], ldc);
+            dgemm_scalaire(layout, transA, transB, dgemm_seq_block_size, N % dgemm_seq_block_size, K, alpha, &A[lda*m*dgemm_seq_block_size], lda, &B[ldb*n*dgemm_seq_block_size], ldb, beta, &C[ldc*n*dgemm_seq_block_size + m*dgemm_seq_block_size], ldc);
         }
         if( M % dgemm_seq_block_size != 0 ) {
-            dgemm_scalaire(layout, transA, transB, M % dgemm_seq_block_size, N % dgemm_seq_block_size, K, alpha, &A[lda*m*dgemm_seq_block_size], lda, &B[ldb*n*dgemm_seq_block_size], ldb, beta, &C[ldc*n*dgemm_seq_block_size], ldc);
+            dgemm_scalaire(layout, transA, transB, M % dgemm_seq_block_size, N % dgemm_seq_block_size, K, alpha, &A[lda*m*dgemm_seq_block_size], lda, &B[ldb*n*dgemm_seq_block_size], ldb, beta, &C[ldc*n*dgemm_seq_block_size + m*dgemm_seq_block_size], ldc);
         }
     }
 
